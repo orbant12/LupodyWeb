@@ -1,0 +1,261 @@
+.f-row-user{
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.f-row-user .thubnail{
+    width: 90%;
+    height: 240px;
+    border: 1px solid black;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.f-row-user .thibnail-none{
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid black;
+    width: 90%;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.upload-btn{
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: 500;
+    transition: ease-in-out 0.2s;
+}
+
+.upload-btn:hover{
+    border: 2px solid black;
+    cursor: pointer;
+    transform: scale(0.90);
+    transition: ease-in-out 0.1s;
+}
+
+.upload-btn:active{
+    border: 2px solid black;
+    cursor: pointer;
+    transform: scale(0.85);
+    transition: ease-in-out 0.1s;
+}
+
+.user-custom-data{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+
+    justify-content: space-between;
+    margin-right: 100px;
+    margin-top: 20px;
+   
+ 
+}
+
+.navigation-selector{
+    background-color: white;
+    width: 90%;
+}
+
+.partner-item-title{
+    padding: 10px 10px;
+
+}
+
+.input-video-user{
+    border-radius: 100px;
+}
+
+
+.inputs-promotion input[type="text"]{
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.upload-video-btn{
+    border: 2px solid black;
+    padding: 15px 20px;
+    background-color: #1DA1F2;
+    height: 55px;
+    color: white;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: 500;
+    transition: ease-in-out 0.1s;
+}
+
+.upload-video-btn:hover{
+    border: 0px solid black;
+    cursor: pointer;
+    padding: 16px 20px;
+    font-weight: 200;
+    background-color: #1DA1F2;
+    color: white;
+    transform: scale(0.96);
+    transition: ease-in-out 0.1s;
+}
+.upload-video-btn:active{
+    border: 2px solid black;
+    cursor: pointer;
+    transform: scale(0.85);
+    transition: ease-in-out 0.1s;
+}
+
+.deleteVideo:hover{
+    cursor: pointer;
+    opacity: 1;
+    border: 1px dashed rgb(241, 88, 88);
+    border-radius: 10px;
+    color: rgb(241, 88, 88);
+    transition: ease-in-out 0.2s;
+}
+
+
+.editBTN:hover{
+    cursor: pointer;
+    opacity: 1;
+    border: 1px dashed #1DA1F2;
+    border-radius: 10px;
+    border-color: #1DA1F2;
+    color: #1DA1F2;
+    transition: ease-in-out 0.2s;
+}
+
+
+.first-section-upload{
+    display:flex;
+    flex-direction:row;
+    width:100%;
+    justify-content:space-between;
+    margin-left:100px;
+    margin-top:50px
+}
+
+.texfield-container-upload{
+    margin-right:350px;
+    width:600px
+}
+
+
+
+
+@media (1700px >= width >= 1600px) {
+    .texfield-container-upload{
+        margin-right:200px;
+        width:600px
+    }
+  }
+  
+  @media (1600px >= width > 1300px) {
+
+ 
+    .first-section-upload{
+        display:flex;
+        flex-direction:column;
+        width:100%;
+        justify-content:space-between;
+        align-items: center;
+        margin-left: -100px;
+        margin-top:50px
+    }
+
+    .texfield-container-upload{
+        margin-right:-200px;
+        width:600px
+    }
+        
+
+  }
+  
+  @media (1450px >= width > 1350px) {
+
+    .first-section-upload{
+        display:flex;
+        flex-direction:column;
+        width:100%;
+        justify-content:space-between;
+        align-items: center;
+        margin-left: -100px;
+        margin-top:50px
+    }
+
+    .texfield-container-upload{
+        margin-right:-200px;
+        width:600px
+    }
+  }
+  
+  @media (1350px >= width > 1200px) {
+
+    .first-section-upload{
+        display:flex;
+        flex-direction:column;
+        width:100%;
+        justify-content:space-between;
+        align-items: center;
+        margin-left: -100px;
+        margin-top:50px
+    }
+
+    .texfield-container-upload{
+        margin-right:-200px;
+        width:600px
+    }
+
+  }
+
+  @media (1200px >= width > 1000px) {
+   
+    .first-section-upload{
+        display:flex;
+        flex-direction:column;
+        width:100%;
+        justify-content:space-between;
+        align-items: center;
+        margin-left: -100px;
+        margin-top:50px
+    }
+
+    .texfield-container-upload{
+        margin-right:-200px;
+        width:600px
+    }
+
+  }
+  
+  
+  
+  
+  /*RESPONSIVENESS FOR PHONE*/
+  
+  @media (max-width: 1024px) {
+  
+  
+    .sidebar{
+      display: none;
+    }
+    .home{
+      margin: 0;
+      top: 0;
+      height: 100%;
+      width: 100%;
+      transition: all 0.3s ease;
+      overflow: hidden;
+      display: none;
+  }
+ 
+  
+  }
