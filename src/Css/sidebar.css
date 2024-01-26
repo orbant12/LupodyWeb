@@ -2881,3 +2881,23 @@ header .image-text .profession{
 }
 
 
+.sidebaropener{
+  display: none;
+}
+
+/* ============ RESPONSIVENESS =============== */
+
+@media (max-width: 768px) {
+  .sidebar{
+  display:none;
+  }
+  .sidebaropener{
+      display: block;
+      position: fixed;
+      top: 100px;
+      left: 10px;
+      color: black;
+      cursor: pointer;
+  }
+  
+  }
