@@ -343,28 +343,6 @@ useEffect(() => {
 
 
 return(
-   <>
-   <div className="mobile-only" >
-   <h3>Avalible on Mobile on 2023 Winter</h3>
-   <img style={{width:130}} src={appleSVG} alt="" />
-   <img style={{width:130,marginTop:-50}} src={googleSVG} alt="" />
-
-   <div style={{display:"flex",flexDirection:"column",height:200,justifyContent:"space-evenly",alignItems:"center"}}>
-
- 
-   <h4>For More Information Contact Us on</h4>
-   <h5>lupody.tv@gmail.com</h5>
-   <h6>Or</h6>
-   <div style={{display:"flex",flexDirection:"row",width:"150%",justifyContent:"space-evenly"}}>
-   <img style={{width:50}} src={instaIcon} alt="" />
-   <img style={{width:50}} src={titokIcon} alt="" />
-   <img style={{width:50}} src={twitterIcon} alt="" />
-   <img style={{width:50}} src={youtubeIcon} alt="" />
-   </div>
-
-   <img src={lupody_logo} style={{width:550,position:"absolute",marginTop:350}} alt="" />
-   </div>
-</div>
 
 <div className="home">
       {/*NAV HEADER*/}
@@ -601,7 +579,7 @@ return(
              </div>
          </footer>
 </div>
-</>
+
 )
 }
 
