@@ -421,23 +421,3 @@ margin-top: 50px;
   
   
   
-  /*RESPONSIVENESS FOR PHONE*/
-  
-  @media (max-width: 1024px) {
-  
-  
-    .sidebar{
-      display: none;
-    }
-    .home{
-      margin: 0;
-      top: 0;
-      height: 100%;
-      width: 100%;
-      transition: all 0.3s ease;
-      overflow: hidden;
-      display: none;
-  }
- 
-  
-  }

@@ -46,6 +46,7 @@ const FypSection = ({
     }, [,uploaderName,uploaderID])
 
     return (
+      <div className='fyp-section-column'>
         <div className="fyp-section" key={videoId} >
      
         <div className="left-col" style={{alignItems:"center"}}>
@@ -98,6 +99,7 @@ const FypSection = ({
         </div>
  
      </div>
+   </div>
     );
 }
 
