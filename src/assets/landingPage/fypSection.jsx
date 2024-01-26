@@ -82,17 +82,17 @@ const FypSection = ({
         </div>
 
         <div className="right-col" >
-           <div className='arrow-fyp' style={{display:"flex",flexDirection:"column",height:"250px",justifyContent:"space-between",paddingTop:50,marginRight:50}}>
+           <div className='arrow-fyp' >
            <KeyboardArrowDownIcon className="down-fyp" style={{transform: 'rotate(180deg)'}} onClick={() =>  handleForyouPrevpass()}/>
            <KeyboardArrowDownIcon className="down-fyp" onClick={() => handleForyouNextpass()}/>
            </div>
 
            <div className="left-col2" >
-           <h3 style={{ maxWidth: '280px', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{videoTitle}</h3>
-           <h6 style={{fontWeight:500}}>{videoCategory}</h6>
-           <hr style={{marginTop:10,marginBottom:10,borderStyle:"groove"}} />
-           <h3>Cast</h3>
-           <h6 style={{fontWeight:500}}>Joe Rogan, John</h6>
+            <h3 style={{ maxWidth: '280px', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{videoTitle}</h3>
+            <h6 style={{fontWeight:500}}>{videoCategory}</h6>
+            <hr style={{marginTop:10,marginBottom:10,borderStyle:"groove"}} />
+            <h3>Cast</h3>
+            <h6 style={{fontWeight:500}}>Joe Rogan, John</h6>
            </div>
 
 
