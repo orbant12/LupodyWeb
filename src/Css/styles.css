@@ -430,7 +430,7 @@ ul{
   background-color: white;
   height: 450px;
   width: 80%;
-  border: 1px solid black;
+
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -468,7 +468,7 @@ ul{
   width: 30%;
   min-width: 300px;
   padding-right: 10px;
-  border: 1px solid black;
+
 }
 
 
@@ -494,7 +494,7 @@ ul{
   margin-left: auto;
   margin-right: auto;
   width: 80%;
-  border: 0px solid black;
+
 }
 
 
@@ -596,7 +596,7 @@ margin-top: 5px;
 }
 
 .recommend-box{
-  border: 1px solid black;
+
   background-color: gainsboro;
   text-align: center;
   width: 350px;
@@ -631,16 +631,15 @@ margin-top: 5px;
   align-items:center;
   width:100%;
   justify-content:space-evenly;
-
-  
 }
 
 .home .right-col{
   display:flex;
   flex-direction:row;
-   max-width: 400px;
-   margin-left:30px;
-   width: 40%;
+  max-width: 400px;
+  margin-left:30px;
+  width: 40%;
+  
    
 }
 
@@ -651,7 +650,6 @@ margin-top: 5px;
   justify-content:space-between;
   padding-top:50px;
   margin-right:50px
-
 }
 
 .landing-text{
@@ -673,7 +671,8 @@ margin-top: 5px;
   align-items:center;
   margin-left:auto;
   margin-right:auto;
-  position:absolute
+  position:absolute;
+
 }
 
 
@@ -707,7 +706,7 @@ margin-top: 5px;
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1200px) {
   .home .fyp-video-frame {
     width: 350px;
   }
@@ -716,7 +715,7 @@ margin-top: 5px;
     background-color: white;
     height: 450px;
     width: 80%;
-    border: 1px solid black;
+  
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -724,8 +723,54 @@ margin-top: 5px;
     margin-top: 70px;
   
   }
-  
+  .home .right-col{
+    display:flex;
+    flex-direction:row;
+    margin-right: auto;
+    max-width: 400px;
+    margin-left:auto;
+    width: 200px;
+ 
+     
+  }
+  .home .arrow-fyp{
+    display:flex;
+    flex-direction:column;
+    height:150px;
+    justify-content:space-between;
+    padding-top:50px;
+    margin-right:50px
+  }
 
+  .left-col2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: -60px;
+  }
+
+  
+.foryou-title{
+  margin-bottom:230px;
+  flex-direction:column;
+  align-items:center;
+  margin-left:auto;
+  margin-right:auto;
+  position:absolute;
+
+}
+
+.foryou-watchfull{
+  margin-top:600px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  margin-left:auto;
+  margin-right:auto;
+  position:absolute
+}
+  
+  
 }
 
 
