@@ -2864,23 +2864,6 @@ header .image-text .profession{
 
 
 
-#mobile{
-  display: none;
-}
-
-.landing-page .only-mobile{
-  display: none;
-}
-
-#login #login-mobile{
-  display: none;
-}
-
-#reg #login-mobile{
-  display: none;
-}
-
-
 .sidebaropener{
   display: none;
 }
@@ -2894,10 +2877,15 @@ header .image-text .profession{
   .sidebaropener{
       display: block;
       position: fixed;
-      top: 100px;
+      top: 80px;
       left: 10px;
       color: black;
       cursor: pointer;
+      z-index: 99999;
   }
   
+  }
+
+  @media screen and (max-width: 1200px) {
+    
   }

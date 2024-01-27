@@ -2,9 +2,6 @@ import React, { createContext, useState } from 'react';
 
 import {  BrowserRouter as Router,  Routes,  Route} from "react-router-dom";
 import { useParams } from 'react-router-dom';
-import { Home } from "./pages/Home"
-
-import { Memory } from "./pages/Memory"
 
 import './Css/sidebar.css'
 import Login from "./pages/Login"

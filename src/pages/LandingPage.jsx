@@ -427,14 +427,14 @@ return(
        {/*CATEGORIES SECTION*/}
 
        <div className="recommend-section" ref={ref}>
-      <hr style={{borderStyle:"groove",boxShadow:"#1DA1F2 0px 5px 15px",color:"#1DA1F2"}} />
-      <div style={{display:"flex",flexDirection:"row",justifyContent:"space-between",alignItems:"center",marginBottom:50,marginTop:-50}}>
-      <h1>Recommended Just Talk Podcasts</h1>
-      <h6 style={{fontWeight:500,opacity:0.6}}>View More</h6>
+         <hr style={{borderStyle:"groove",boxShadow:"#1DA1F2 0px 5px 15px",color:"#1DA1F2"}} />
+      <div className="rec-top-bar" >
+         <h1>Recommended Just Talk Podcasts</h1>
+         <h6 style={{fontWeight:500,opacity:0.6}}>View More</h6>
       </div>
       {visible && (
          <div className="recommend-container" >
-            <div onClick={showPaginationPrev} style={{ cursor: "pointer", transform: "rotate(180deg)",marginBottom:100}}
+            <div onClick={showPaginationPrev} style={{ cursor: "pointer", transform: "rotate(180deg)",marginRight:30,marginLeft:30,marginBottom:100}}
 >
             <ArrowCircleRightIcon  />
             </div>
@@ -450,7 +450,7 @@ return(
          )}
   
            
-           <div onClick={showPaginationNext} style={{cursor: "pointer",marginBottom:100}}>
+           <div onClick={showPaginationNext} style={{cursor: "pointer",marginRight:30,marginLeft:30,marginBottom:100}}>
             <ArrowCircleRightIcon  />
             </div>
          </div>
@@ -459,13 +459,13 @@ return(
 
       <div className="recommend-section">
       <hr style={{borderStyle:"groove",boxShadow:"#1DA1F2 0px 5px 15px",color:"#1DA1F2"}}  />
-      <div style={{display:"flex",flexDirection:"row",justifyContent:"space-between",alignItems:"center",marginBottom:50,marginTop:-50}}>
+      <div className="rec-top-bar">
       <h1>Recommended Health Podcasts</h1>
       <h6 style={{fontWeight:500,opacity:0.6}}>View More</h6>
       </div>
          <div className="recommend-container">
         
-         <div onClick={showPaginationPrevHealth} style={{ cursor: "pointer", transform: "rotate(180deg)",marginBottom:100}}
+         <div onClick={showPaginationPrevHealth} style={{ cursor: "pointer", transform: "rotate(180deg)",marginRight:30,marginLeft:30,marginBottom:100}}
 >
             <ArrowCircleRightIcon  />
             </div>
@@ -480,7 +480,7 @@ return(
       </div>
       )}
            
-           <div onClick={showPaginationNextHealth} style={{cursor: "pointer",marginBottom:100}}>
+           <div onClick={showPaginationNextHealth} style={{cursor: "pointer",marginRight:30,marginLeft:30,marginBottom:100}}>
             <ArrowCircleRightIcon  />
             </div>  
              
@@ -489,13 +489,13 @@ return(
 
       <div className="recommend-section">
       <hr style={{borderStyle:"groove",boxShadow:"rgba(0, 0, 0, 0.35) 0px 5px 15px"}}  />
-      <div style={{display:"flex",flexDirection:"row",justifyContent:"space-between",alignItems:"center",marginBottom:50,marginTop:-50}}>
-      <h1>Recommended Business Podcasts</h1>
-      <h6 style={{fontWeight:500,opacity:0.6}}>View More</h6>
+      <div className="rec-top-bar">
+         <h1>Recommended Business Podcasts</h1>
+         <h6 style={{fontWeight:500,opacity:0.6}}>View More</h6>
       </div>
          
          <div className="recommend-container">
-         <div onClick={showPaginationPrevBusiness} style={{ cursor: "pointer", transform: "rotate(180deg)",marginBottom:100}}
+         <div onClick={showPaginationPrevBusiness} style={{ cursor: "pointer", transform: "rotate(180deg)",marginRight:30,marginLeft:30,marginBottom:100}}
 >
             <ArrowCircleRightIcon  />
             </div>
@@ -510,16 +510,16 @@ return(
          </div>
          )}
            
-           <div onClick={showPaginationNextBusiness} style={{cursor: "pointer",marginBottom:100}}>
+           <div onClick={showPaginationNextBusiness} style={{cursor: "pointer",marginRight:30,marginLeft:30,marginBottom:100}}>
             <ArrowCircleRightIcon  />
             </div>  
          </div>
          <hr style={{borderStyle:"groove",boxShadow:"rgba(0, 0, 0, 0.35) 0px 5px 15px"}}  />
       </div>
 
-      <div className="recommend-section">
+      <div className="recommend-section2">
    
-      <div style={{display:"flex",flexDirection:"row",justifyContent:"space-between",alignItems:"center",marginBottom:50,marginTop: 80}}>
+      <div className="rec-top-bar">
       <h1>Recommended For You</h1>
       </div>
          {/*ROW 1*/}
@@ -535,49 +535,6 @@ return(
       </div>
 
 
-
-
-      {/*FOOTER*/}
-            <footer style={{alignSelf:"center", marginTop:500}} className="footer">
-             <div className="container-footer">
-                <div className="row">
-                   <div className="footer-col">
-                      <h4>company</h4>
-                      <ul>
-                         <li><a href="/support/contact-us">about us</a></li>
-                         <li><a href="/policies/legal/terms">Terms of Use</a></li>
-                         <li><a href="/policies/legal/privacy-policy">privacy policy</a></li>
-                         
-                      </ul>
-                   </div>
-                   <div className="footer-col">
-                      <h4>get help</h4>
-                      <ul>
-                         <li><a href="/policies">FAQ</a></li>
-                         <li><a href="/subscription">subscription</a></li>
-                         <li><a href="/settings">cancel & returns</a></li>
-                         <li><a href="/settings">payment options</a></li>
-                      </ul>
-                   </div>
-                   <div className="footer-col">
-                      <h4>Contact Us</h4>
-                      <ul>
-                         <li><a href="/support/contact-us">Customer Support</a></li>
-                         <li><a href="/support/feedback">Any Questions ?</a></li>
-                      </ul>
-                   </div>
-                   <div className="footer-col">
-                      <h4>follow us</h4>
-                      <div className="social-links">
-                         <a href="#"><i className="fab fa-facebook-f"></i></a>
-                         <a href="#"><i className="fab fa-twitter"></i></a>
-                         <a href="https://www.instagram.com/echotheorca.app/"><i className="fab fa-instagram"></i></a>
-                         <a href="https://www.youtube.com/channel/UCA5s3Bjs3MiXWnsg_Wn10hQ"><i className="fab fa-youtube"></i></a>
-                      </div>
-                   </div>
-                </div>
-             </div>
-         </footer>
 </div>
 
 )

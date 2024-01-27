@@ -21,41 +21,39 @@ return (
    <div> 
    {isLogged ? ( 
   
-      <header className="header" style={{zIndex:999999}}>
-    <nav className="nav container">
-       <div className="nav__data">
+      <header className="header">
+         <nav className="nav container">
+            <div className="nav__data">
+               
+                  <img style={{width:300}} src={lupody_logo} alt="lupody logo" />
          
-             <img style={{width:300}} src={lupody_logo} alt="lupody logo" />
-    
+               
+            </div>
+               <div className="nav_search">
+                  <SearchIcon className="search-icon"/>
+                  <input type="text" placeholder="Search" />
+               </div>
          
-       </div>
-         <div className="nav_search">
-            <SearchIcon className="search-icon"/>
-            <input type="text" placeholder="Search" />
-         </div>
-   
-       <div className="nav__menu" id="nav-menu">
-          <ul className="nav__list">
-      
-         
+            <div className="nav__menu" id="nav-menu">
+               <ul className="nav__list">
+            
+               
 
-          </ul>
-       </div>
-       <div className="nav_side">
-       </div>
-    </nav>
-    
- </header>
+               </ul>
+            </div>
+            <div className="nav_side">
+            </div>
+         </nav>
+      </header>
  
    ):(
 
-      <header className="header" style={{zIndex:999999}}>
+      <header className="header">
       <nav className="nav container">
          <div className="nav__data">
-            <a href="/landing" className="nav__logo" style={{maxWidth:300,overflow:"hidden"}}>
-               <img style={{width:300}} src={lupody_logo} alt="lupody logo" />
-            </a>
-           
+
+               <img style={{width:300}} src={lupody_logo} alt="lupody logo" />          
+
          </div>
            <div className="nav_search">
               <SearchIcon className="search-icon"/>
@@ -63,12 +61,10 @@ return (
            </div>
      
          <div className="nav__menu" id="nav-menu">
-            <ul className="nav__list">
         
-               <li><a href="/login" className="login-btn">Login</a></li>
-               <li><a href="/register" className="try-btn">Register</a></li>
-  
-            </ul>
+              <a href="/login" className="login-btn">Login</a>
+              <a href="/register" className="try-btn">Register</a>
+      
          </div>
          <div className="nav_side">
          </div>

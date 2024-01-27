@@ -196,20 +196,3 @@ opacity: 0.8;
 }
 
 
-@media (max-width: 768px) {
-  .home{
-    margin-left: 0px;
-    top: 0;
-    width: 100%;  
-    transition: all 0.3s ease;
-
-}
-
-.sidebar.close ~ .home{
-  left: 0px;
-  display: flex;
-  width: 100%;
-  overflow: hidden;
-}
-
-}
